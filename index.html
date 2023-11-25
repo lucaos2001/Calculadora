@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <h1>
+        Calculadora
+    </h1>
+    <hr />
+    <div id="DivCalc">
+        <fieldset id="Calculadora">
+            <div>
+                <fieldset id="Resultados">
+                    <div id="Conta"></div>
+                </fieldset>
+            </div>
+            <div id="TeclasCalculadora">
+                <div>
+                    <button id="1" onclick="AdicionarNumero(1)">1</button>
+                    <button id="2" onclick="AdicionarNumero(2)">2</button>
+                    <button id="3" onclick="AdicionarNumero(3)">3</button>
+                    <button id="+" onclick="AdicionarOp('+')">+</button>
+                </div>
+                <div>
+                    <button id="4" onclick="AdicionarNumero(4)">4</button>
+                    <button id="5" onclick="AdicionarNumero(5)">5</button>
+                    <button id="6" onclick="AdicionarNumero(6)">6</button>
+                    <button id="-" onclick="AdicionarOp('-')">-</button>
+                </div>
+                <div>
+                    <button id="7" onclick="AdicionarNumero(7)">7</button>
+                    <button id="8" onclick="AdicionarNumero(8)">8</button>
+                    <button id="9" onclick="AdicionarNumero(9)">9</button>
+                    <button id="*" onclick="AdicionarOp('*')">*</button>
+                </div>
+                <div>
+                    <button id="0" onclick="AdicionarNumero(0)">0</button>
+                    <button id="Ac" onclick="Apagar()">Ac</button>
+                    <button id="." onclick="AdicionarOp('.')">.</button>
+                    <button id="/" onclick="AdicionarOp('/')">&#8260;</button>
+                    <button id="BotaoIgual" onclick ="Calcula();">&#61;</button>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+    background-color: #2C74B3;
+}
+
+#DivCalc {
+    margin: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+    color: black;
+    height: 50%;
+    width: 50%;
+    border: 1px solid black;
+}
+
+#Calculadora {
+    width: 255px; 
+    margin: auto; 
+    padding: 10px;
+    border: 5px solid black; 
+    background-color: #0A2647;
+    border-radius: 3%;
+}
+
+button {
+    width: 50px; 
+    height: 50px; 
+    margin: 5px; 
+}
+
+#Resultados {
+    background-color: #205295;
+    border: 5px solid black;
+    border-radius: 3%;
+}
+
+button {
+    color: black;
+    background-color: #2C74B3;
+    border: 2px solid black;
+    border-radius: 15%;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#Conta {
+    padding: 12px;
+    font-weight: bolder;
+    max-width: 100%;
+    height: 10px;
+    width: 190px;
+}
+
+button:hover {
+    background-color: #205295;
+}
+
+button:active {
+    box-shadow: 0 2px black;
+    transform: translateY(4px);
+}
+
+#BotaoIgual {
+    width: 200px;
+    border-radius: 3%;
+}
